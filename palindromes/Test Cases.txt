@@ -1,0 +1,6 @@
+Test Cases
+
+"Race car!"     True
+"not a palindrome"      False
+"A man, a plan, a canal.  Panama?"      True
+"never odd or even"     True

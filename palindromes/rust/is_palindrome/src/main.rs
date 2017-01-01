@@ -1,7 +1,5 @@
 extern crate regex;
 
-
-
 use regex::Regex;
 use std::env;
 
@@ -10,6 +8,7 @@ fn usage() {
         println!("Usage: returns true or false")
 
 }
+
 
 fn is_palindrome(line: String) -> bool {
     let re = Regex::new(r"[\W_]").unwrap();
@@ -21,8 +20,8 @@ fn is_palindrome(line: String) -> bool {
     return line_lower == line_rev;
 }
 
-fn main() 
-{
+
+fn main() {
     let args: Vec<String> = env::args().collect();
 
     match args.len() {

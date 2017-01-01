@@ -10,7 +10,6 @@ def isPalindrome(line):
     lineReverse = lineRegEx[::-1]
 
     print(lineRegEx == lineReverse)
-
     return    
 
 def usage():
